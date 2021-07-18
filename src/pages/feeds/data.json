@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "avatar": "https://picsum.photos/300/300",
+        "username":"Josh",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "1",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Andrew",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "2",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Joshua_l",
+        "theme": "Vue.js",
+        "post" : "JavaScript framework for building interactive web applications ⚡"
+    },
+    {
+        "id": "3",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Camille",
+        "theme": "React.js",
+        "post" : "Open source JavaScript library used for designing user interfaces"
+    },
+    {
+        "id": "4",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Marselle",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "5",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Piter",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "6",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Can",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "7",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"lloveanime",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "8",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Diself",
+        "theme": "",
+        "post" : ""
+    },
+    {
+        "id": "9",
+        "avatar":"https://picsum.photos/300/300",
+        "username":"Gartor",
+        "theme": "",
+        "post" : ""
+    }
+]

@@ -1,0 +1,52 @@
+.c-story-user-item {
+    position: static;
+    width: 92px;
+    flex: none;
+    order: 9;
+    flex-grow: 0;
+    margin: 0px 31px;
+}
+
+.img {
+    left: 6.52%;
+    right: 6.52%;
+    top: 5.17%;
+    bottom: 25.86%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.img-test {
+    left: 6.52%;
+    right: 6.52%;
+    top: 5.17%;
+    bottom: 25.86%;
+}
+
+.avatar {
+    left: 6.52%;
+    right: 6.52%;
+    top: 5.17%;
+    bottom: 25.86%;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.avatar:hover {
+    border: 2px solid #A6328D;
+}
+
+.username {
+    position: static;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85%;
+    line-height: 100%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}

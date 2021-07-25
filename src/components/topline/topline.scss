@@ -1,16 +1,12 @@
 .c-topline {
-    position: inherit;
     background: #FAFAFA;
     box-shadow: 0px 0.33px 0px rgba(60, 60, 67, 0.29);
+    display: flex;
+    justify-content: space-between;
 }
 
-.content {
+.x-container {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    left: 13%;
-    top: 25%;
-    width: 100%;
 }

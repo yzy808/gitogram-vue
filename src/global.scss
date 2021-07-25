@@ -1,11 +1,19 @@
+:root {
+    --z-active-slide: 10;
+    --grey: #404040;
+    --green: #31AE54;
+    --borders: #D3D3D3;
+    --lightGray: #9E9E9E;
+}
+
 body, html {
     height: 100%;
 }
 
 body {
     font-family: 'Inter', Helvetica, sans-serif;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     color: #262626;
     font-size: 14px;
     line-height: 1.8;
@@ -25,7 +33,7 @@ ul {
 
 img {
     display: block;
-    max-width: 100%;
+    max-width: 80px;
 }
 
 p {
@@ -55,7 +63,10 @@ button {
 }
 
 .x-container {
-    width: 100%;
+    width: 1200px;
+    height: 276px;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
 }
 

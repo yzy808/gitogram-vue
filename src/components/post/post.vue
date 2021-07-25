@@ -5,9 +5,15 @@
                 <img :src="profileImg" class="profile-img" alt="username avatar" />
                 <div class="profile-name">{{ profile }}</div>
             </div>
-            <div name="postItem" class="post-item">
-                <div class="theme">{{ theme }}</div>
-                <div class="post-text">{{ postText }}</div>
+            <div class="post-item">
+                <slot name="postItem">
+                    <div class="theme">{{ theme }}</div>
+                    <div class="post-text">{{ postText }}</div>
+                    <div class="buttons">
+                        <icon name="btnCount" class="btwWithCount" />
+                        <icon name="fork" class="fork" />
+                    </div>
+                </slot>
             </div>
         </header>
         <footer>
@@ -18,6 +24,7 @@
 
 <script>
 import { feed } from '../feed'
+import { icon } from '../../icons'
 export default {
   props: {
     profile: {
@@ -38,7 +45,8 @@ export default {
     }
   },
   components: {
-    feed
+    feed,
+    icon
   }
 }
 </script>

@@ -4,10 +4,10 @@
             <div class="headline">
                 <slot name="headline" />
             </div>
+            <div class="content" v-if="$slots.content">
+                <slot name="content" />
+            </div>
         </div>
-    </div>
-    <div class="content" v-if="$slots.content">
-        <slot name="content" />
     </div>
 </template>
 <style lang="scss" src="./topline.scss" scoped></style>

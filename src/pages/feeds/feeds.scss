@@ -8,14 +8,10 @@
     flex-grow: 0;
 }
 
-.post {
-    width: 979px;
-    padding-top: 100px;
-}
-
-.list-wrapper {
-    display:flex;
-    justify-content: center;
+.post-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home {

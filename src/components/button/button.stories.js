@@ -15,7 +15,7 @@ const template = (args) => ({
   data () {
     return { args }
   },
-  template: '<x-button v-bind="args">Following</x-button>'
+  template: '<x-button v-bind="args">Follow</x-button>'
 })
 
 export const Default = template.bind({})

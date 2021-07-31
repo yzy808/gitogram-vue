@@ -24,13 +24,17 @@
         <div class="frame">
             <ul class="posts">
                 <li v-for="item in items" :key="item.id">
-                    <div id='list-wrapper' class="list-wrapper"><!--v-if="post.theme.length > 0"-->
-                        <post
-                              :profileImg="item.owner.avatar_url"
-                              :profile="item.owner.login"
-                              :theme="item.name"
-                              :postText="item.description">
-                        </post>
+                    <div id='list-wrapper' class="list-wrapper">
+                        <div class="list-item">
+                          <user
+                                :profileImg="item.owner.avatar_url"
+                                :profile="item.owner.login">
+                          </user>
+                          <post
+                                :theme="item.name"
+                                :postText="item.description">
+                          </post>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -44,6 +48,7 @@ import { storyUserItem } from '../../components/storyUserItem'
 import { post } from '../../components/post'
 import { logo } from '../../components/logo'
 import { actionPanel } from '../../components/actionPanel'
+import { user } from '../../components/user'
 import * as api from '../../api'
 import stories from './data.json'
 
@@ -54,7 +59,8 @@ export default {
     storyUserItem,
     post,
     logo,
-    actionPanel
+    actionPanel,
+    user
   },
   data () {
     return {

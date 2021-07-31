@@ -1,32 +1,5 @@
-.profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .buttons {
     display: flex;
-}
-
-.profile-img {
-    border-radius: 50%;
-    height: 44px;
-    width: 44px;
-    box-sizing: border-box;
-}
-
-.profile-name {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: -0.1px;
-    color: #262626;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 14px;
 }
 
 .theme {

@@ -1,10 +1,6 @@
 <template>
     <div class="post">
         <header class="header">
-            <div class="profile">
-                <img :src="profileImg" class="profile-img" alt="username avatar" />
-                <div class="profile-name">{{ profile }}</div>
-            </div>
             <div class="post-item">
                 <slot name="postItem">
                     <div class="theme">{{ theme }}</div>
@@ -25,21 +21,14 @@
 <script>
 import { feed } from '../feed'
 import { icon } from '../../icons'
+
 export default {
   props: {
-    profile: {
-      type: String,
-      required: true
-    },
     postText: {
       type: String,
       required: true
     },
     theme: {
-      type: String,
-      required: true
-    },
-    profileImg: {
       type: String,
       required: true
     }

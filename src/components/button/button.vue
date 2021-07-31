@@ -12,9 +12,8 @@
 </template>
 
 <script>
-
 export default {
-  name: 'Button',
+  name: 'button',
   props: {
     hoverText: {
       type: String
@@ -22,7 +21,7 @@ export default {
   },
   computed: {
     withHoverText () {
-      return this.hoverText?.length
+      return this.hoverText
     }
   }
 }

@@ -6,6 +6,7 @@
 
 <script>
 export default ({
+  name: 'progress',
   data () {
     return {
       active: false
@@ -21,10 +22,10 @@ export default ({
     this.$nextTick(() => {
       this.active = true
     })
-    this.$refs.indicator.addEventListener('transitioned', this.emitOnFinish)
+    this.$refs.indicator.addEventListener('transitionend', this.emitOnFinish)
   },
   beforeUnmount () {
-    this.$refs.indicator.removeEventListener('transitioned', this.emitOnFinish)
+    this.$refs.indicator.removeEventListener('transitionend', this.emitOnFinish)
   }
 })
 </script>
